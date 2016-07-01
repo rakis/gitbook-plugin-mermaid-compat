@@ -4,7 +4,7 @@
   "main": "index.js",
   "version": "0.1.1",
   "engines": {
-    "gitbook": ">2.x.x"
+    "gitbook": ">=3.0.0-pre.0"
   },
   "scripts": {
     "clean": "rimraf dist",
@@ -13,7 +13,7 @@
     "copy:book": "mkdir -p dist/book && cp -R book/ dist/book"
   },
   "dependencies": {
-    "mermaid": "^0.5.8"
+    "mermaid": "^6.0.0"
   },
   "devDependencies": {
     "rimraf": "^2.5.2"
